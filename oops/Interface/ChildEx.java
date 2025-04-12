@@ -29,6 +29,7 @@ public class ChildEx implements ParentInterface1,ParentInterface2 {
         ce.propertyParent1();
         ce.assetsParent2();
         ce.propertyParent2();
+        ce.display();
 
     }
 }

@@ -5,4 +5,8 @@ public interface ParentInterface1 {
 
     public void propertyParent1();
 
+    default void display(){
+        System.out.println("default");
+    }
+
 }
